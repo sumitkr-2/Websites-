@@ -1,0 +1,106 @@
+
+body{
+    background-image: url('new.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.right ul {
+    display: flex;
+    justify-content: right;
+     
+}
+
+
+nav ul a {
+
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 50px;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 25px;
+
+}
+
+nav ul {
+    margin-top: 30px;
+}
+
+
+.left img {
+    width: 80px;
+    display: flex;
+    justify-content: stretch;
+    margin-left: 25px;
+}
+
+
+#line {
+    background-color: red;
+}
+
+.reg{ 
+     border-style: solid;
+     border-radius: 4pc;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    margin-left: 520px;
+    margin-top: 86px;
+}
+
+
+
+.form{
+     margin-left: 40px;
+    padding: 25px;
+    max-width: 254px;
+}
+
+.form input{
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    text-decoration: black;
+    background-color: aliceblue;
+    margin: 5px;
+    border-radius: .3pc;
+   
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 5pc;
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+    background-color: green
+}
+
+inpu{
+    width: 252px;
+    background-color: red;
+}
+
+#checkbox{
+    margin-left: 25px;
+}
+ 
